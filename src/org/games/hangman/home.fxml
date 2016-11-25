@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="356.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="org.games.hangman.Controller">
+  <children>
+    <Button fx:id="start" layoutX="35.0" layoutY="384.0" mnemonicParsing="false" onAction="#start" text="START">
+      <font>
+        <Font name="Comic Sans MS" size="25.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="exit" font="$x1" layoutX="207.0" layoutY="384.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+    <ImageView fitHeight="295.1199951171875" fitWidth="242.46948403893197" layoutX="57.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Boby.PNG" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
